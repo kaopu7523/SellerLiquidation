@@ -1,0 +1,24 @@
+{
+  "nav": {
+    "storageFees": "Storage & Fees",
+    "clearingMethods": "Clearing Methods",
+    "channels": "Channels",
+    "about": "About"
+  },
+  "common": {
+    "viewAll": "View all →",
+    "moreIn": "More in {title}"
+  },
+  "article": {
+    "quickAnswer": "Quick answer",
+    "sources": "Sources used on this page",
+    "updated": "Updated"
+  },
+  "footer": {
+    "disclaimer": "This site is independently operated and is not affiliated with, endorsed by, or sponsored by Amazon.com, Inc. or its affiliates.",
+    "updated": "Fee rates and program details are updated as of September 2026 — always confirm current rates in your Seller Central account.",
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy Policy"
+  }
+}

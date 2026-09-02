@@ -1,0 +1,55 @@
+---
+keyword: "亚马逊超龄库存附加费"
+title: "亚马逊超龄库存附加费:2026 年各天数区间费率"
+description: "亚马逊超龄库存附加费是对存放超过180天的 FBA 库存额外收取的费用。查看 2026 年费率分档、出账时间,以及怎么避免或降低这笔费用。"
+quickAnswer: "超龄库存附加费是在你正常仓储费之外,针对已经存放超过180天的 FBA 库存额外加收的月费。费率按存放天数分档递增,从181-210天档位的每立方英尺 $0.50,一路涨到超过456天档位的每立方英尺 $7.90(或每件 $0.35,取两者中较高者)。这笔费用是根据每月15日的库存快照评估,在18号到22号之间实际扣费。"
+updated: "2026年9月"
+sources:
+  - label: "Aged inventory surcharge report — Amazon Seller Central"
+    url: "https://sellercentral.amazon.com/help/hub/reference/external/200725880?locale=en-US"
+  - label: "Aging Inventory Action Plan — Amazon Seller Forums (Jan 2026 rate update)"
+    url: "https://sellercentral.amazon.com/seller-forums/discussions/t/85f60e98-f93c-48fe-bee7-07917616f827"
+  - label: "Automated fulfillable inventory removal — Amazon Seller Central"
+    url: "https://sellercentral.amazon.com/help/hub/reference/external/GDAET8WDZBB2GFHY"
+---
+
+## 2026 年费率分档
+
+自2026年1月16日起生效,按日均体积每立方英尺计费(服装、鞋类、箱包、珠宝、手表不适用这笔附加费):
+
+| 存放天数 | 每立方英尺费率 |
+| --- | --- |
+| 181-210天 | $0.50 |
+| 211-240天 | $1.00 |
+| 241-270天 | $1.50 |
+| 271-300天 | $5.45 |
+| 301-330天 | $5.70 |
+| 331-365天 | $5.90 |
+| 366-455天 | $6.90 |
+| 456天以上 | $7.90(或每件 $0.35,取两者中较高者) |
+
+这笔费用是在你的**常规月度仓储费之外**额外收取的,不是替代关系。
+
+## 怎么计算和出账
+
+亚马逊在**每月15日**做一次库存快照,根据每件商品在亚马逊仓库存放的时长来评估这笔附加费。实际扣费发生在当月的**18号到22号**之间。每个 SKU 的收费金额等于其单位体积乘以对应天数档位的费率。
+
+你可以在 Seller Central 的 Fulfillment 报表里找到 Aged Inventory Surcharge Report,查看完整明细——包括快照日期、SKU、收费数量、单位体积、收费金额和对应的天数档位;也可以在 Inventory Dashboard 的"Estimated Aged Inventory Surcharge"板块看到一个实时预估。
+
+## 为什么明明在卖,还是被扣了超龄费
+
+亚马逊是按你**账面上最老的那批库存**来评估这笔附加费,不一定是实际发出去的那批货。也就是说,某个 SKU 可能一直在稳定出货,但账面上记录的最老一批同款库存却在后台持续老化、持续产生附加费——系统并不保证真正的先进先出发货顺序,尽管这笔费用的计算方式看起来就是按先进先出来算的。
+
+## 怎么避免在本月被计入这笔费用
+
+如果你在**太平洋时间当月14日晚上11:59之前**提交了移除或处置订单,那批库存就不会被计入当月的附加费计算——哪怕实物还没真正搬离仓库,只要订单在截止时间前提交就算数。
+
+## 在超龄费扣款前设置自动移除
+
+你可以在 Seller Central 里进入 Settings → Fulfillment by Amazon → Automated fulfillable inventory settings → Edit,设置自动移除,选择 Return(退回给你,需要提供地址)或 Dispose(销毁)。满足以下任一条件,亚马逊就会自动触发:库存存放超过365天,或者连续6个月以上没有销量且已存放超过180天。
+
+## 怎么降低这笔费用
+
+- 用不低于20%折扣的 Amazon Outlet 促销活动,在某批库存跨入更高费率档位之前先把它清掉。
+- 用 FBA Inventory 工具筛选出接近181天大限的 ASIN,提前标记。
+- 在每月扣费截止日期之前主动提交移除或处置订单,而不是等费用扣了再处理。

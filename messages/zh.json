@@ -1,0 +1,24 @@
+{
+  "nav": {
+    "storageFees": "仓储费用",
+    "clearingMethods": "清库存方法",
+    "channels": "流向渠道",
+    "about": "关于我们"
+  },
+  "common": {
+    "viewAll": "查看全部 →",
+    "moreIn": "更多「{title}」相关内容"
+  },
+  "article": {
+    "quickAnswer": "快速回答",
+    "sources": "本页信息来源",
+    "updated": "更新于"
+  },
+  "footer": {
+    "disclaimer": "本站为独立运营站点,与 Amazon.com, Inc. 及其关联公司没有任何隶属、认可或赞助关系。",
+    "updated": "费率与项目细节更新至 2026 年 9 月——具体费率请以你 Seller Central 账户内的最新数据为准。",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "privacy": "隐私政策"
+  }
+}
